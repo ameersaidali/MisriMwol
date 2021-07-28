@@ -36,15 +36,7 @@ Project created by <a href="https://github.com/ameersaidali">ameer saidali hisha
  <a href="https://instagram.com/ameer_.su_hail?utm_medium=copy_link" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/instagram.svg" alt="kyrie.baran" height="30" width="40" /></a>
 </p>
 
-  
-
-<div align="center">
-<p align="center">&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=ameer-kallumthodi&show_icons=true&theme=nightowl" alt="ameer-kallumthodi" /></p>
-
-<p align="center"><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=ameersaidali&theme=nightowl" alt="ameersaidali" /></p>
-</details> </div>
-
-
+=====
 ## 📢 Guide
 Click WA logo to Join Support Group 👇
     <br>
@@ -97,6 +89,11 @@ Base, Bug Fixes, Modules | Modifiying  as   public | Bug Fixes, Modules
 <p align="center">
 <a href="https://youtu.be/_D4ZYuUSXjs" target="blank"><img align="center" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Logo_of_YouTube_%282015-2017%29.svg/1200px-Logo_of_YouTube_%282015-2017%29.svg.png" height="45" width="90" /></a>
 </p>
+<div align="center">
+<p align="center">&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=ameer-kallumthodi&show_icons=true&theme=nightowl" alt="ameer-kallumthodi" /></p>
+
+<p align="center"><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=ameersaidali&theme=nightowl" alt="ameersaidali" /></p>
+</details> </div>
 
 ## License
 This project is protected by `GNU General Public Licence v3.0` license.
