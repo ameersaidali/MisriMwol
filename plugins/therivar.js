@@ -19,10 +19,10 @@ let baseURI = '/apps/' + config.HEROKU.APP_NAME;
     var THERI_off = ''
    
     if (config.LANG == 'EN') {
-        l_dsc = 'chilla theri vilichaal spot kick. -bot owner command'
+        l_dsc = 'eni link ittalum cheetha vilichalum nee purath. -bot owner command'
         alr_on = 'Antilink is already open!'
         alr_off = 'Antilink is currently closed!'
-        THERI_on = '*eni chilla theri vilcha kick akkum*'
+        THERI_on = '*eni whatsapp group link ittal kick cheyyum*'
         THERI_off = '*eni enth theri vennelum vili*'
     }
    
@@ -34,14 +34,14 @@ let baseURI = '/apps/' + config.HEROKU.APP_NAME;
         THERI_off = 'bgm option turned off'
     }
     if (config.LANG == 'ML') {
-        l_dsc = 'ആന്റിലിങ്ക് ഉപകരണം സജീവമാക്കുന്നു.'
+        l_dsc = 'ലിങ്ക് ഇട്ടാൽ റിമോവ് .'
         alr_on = 'ആന്റിലിങ്ക് ഇതിനകം തുറന്നു!'
         alr_off = 'ആന്റിലിങ്ക് നിലവിൽ അടച്ചിരിക്കുന്നു!'
-        THERI_on = 'bgm option turned on'
-        THERI_off = 'bgm option turned off'
+        THERI_on = 'ലിങ്ക് ഇട്ടാലും ചീത്ത വിളിച്ചാലും ഇനി റിമോവ് ആക്കും '
+        THERI_off = 'ന്തു കാണിച്ചാലും ഞാൻ മൈന്റ് ചെയ്യില്ല '
     }
    
-    Asena.addCommand({pattern: 'theri ?(.*)', fromMe: true, desc: l_dsc, usage: '.theri no / yes' }, (async (message, match) => {
+    Asena.addCommand({pattern: 'link ?(.*)', fromMe: true, desc: l_dsc, usage: '.link no / yes' }, (async (message, match) => {
         if (match[1] == 'yes') {
                 await heroku.patch(baseURI + '/config-vars', { 
                     body: { 
