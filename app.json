@@ -1,6 +1,6 @@
 {
-    "name": "JulieMwol 2️⃣",
-    "description": "JulieMwol - Whatsapp Bot",
+    "name": "MisriMwol",
+    "description": "MisriMwol- Whatsapp Bot",
     "logo": "https://i.imgur.com/ADXSU8e.jpeg",
     "keywords": ["whatsapp", "userbot", "Asena", "WhatsAsena", "bot", "api", "ai"],
     "repository": "https://github.com/farhan-dqz-Julie/Mwol",
@@ -44,7 +44,7 @@
         "HANDLERS": {
             "description": "Komutlar için. For commands.",
             "required": true,
-            "value": "^[.!;]"
+            "value": "^[.!;#]"
         },
         "FULL_EVA": {
             "description": "Hesabınızı bir Chatbot'a Çevirin! Turn your account into a chatbot!",
@@ -116,7 +116,7 @@
         "ALIVE_MESSAGE": {
             "description": "Customizable Alive Message! Use => default, to change back.",
             "required": false,
-            "value": "\n ```I Am Alive !!!```\n\n```Type``` *.help* ```for commands```"
+            "value": "\n ```I Am Alive !!!```\n\n```Type``` *#menu* ```for commands```"
         },
         "BAN_MESSAGE": {
             "description": "Customizable Ban Message! Use => default, to change back.",
