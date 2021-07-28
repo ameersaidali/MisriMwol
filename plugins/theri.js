@@ -1,4 +1,5 @@
 /* Copyright (C) 2020 afnanplk.
+reedited  saidali
 Licensed under the  GPL-3.0 License;
 you may not use this file except in compliance with the License.
 WhatsAsena - Yusuf Usta
@@ -56,15 +57,15 @@ if (Config.LANG == 'ES') ldc = '*Enlace Detectado!*'
 Asena.addCommand({on: 'text', fromMe: false, deleteCommand: false}, (async (message, match) => {
     if (therikick_var == 'true' && message.jid !== '905511384572-1616356915@g.us') {
         let regex1 = new RegExp('thayoli')
-        let regex2 = new RegExp('thaayoli')
-        let regex3 = new RegExp('thayolli')
-        let regex4 = new RegExp('thaayolli')
-        let regex5 = new RegExp('thayyoli')
-        let regex6 = new RegExp('Thayoli')
-        let regex7 = new RegExp('Thaayoli')
-        let regex8 = new RegExp('Thayolli')
-        let regex9 = new RegExp('Thaayolli')
-        let regex10 = new RegExp('Thayyoli')
+        let regex2 = new RegExp('Myre')
+        let regex3 = new RegExp('Poor')
+        let regex4 = new RegExp('Poorimone')
+        let regex5 = new RegExp('Pundachi')
+        let regex6 = new RegExp('Kuthimone')
+        let regex7 = new RegExp('Andi')
+        let regex8 = new RegExp('Myr')
+        let regex9 = new RegExp('Myran')
+        let regex10 = new RegExp('https://chat.whatsapp.com/')
         if (regex1.test(message.message)) {
             var us = await checkUsAdmin(message)
             var im = await checkImAdmin(message)
